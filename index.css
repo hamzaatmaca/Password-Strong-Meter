@@ -1,0 +1,102 @@
+@charset 'utf-8';
+html,body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	/*outline: 1px solid black;*/
+}
+.col-md-6{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0 0 3px grey;
+	border-radius: 3px;
+
+}
+.progress-bar{
+	outline:none!important ;
+	border: none!important;
+}
+h1{
+
+	width: 100%;
+	letter-spacing: 5px;
+	color: seagreen;
+	font-weight: bolder;
+	text-align: center;
+
+}
+
+
+#password{
+
+	width: 90%;
+	border: none;
+	outline: none;
+	box-shadow: 0 0 4px grey;
+	border-radius: 10px;
+	margin: 40px;
+	height: 5vh;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 4px;
+
+}
+button{
+	width: 90%!important;
+	font-size: 25px!important;
+	letter-spacing: 10px;
+	font-weight: bold!important;
+	margin: 10px;
+}
+ul{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-top: 20px;
+}
+ul li{
+	list-style-type: none;
+	margin: 10px;
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.statusBar{
+
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.statusBar div{
+	width: 50vw;
+	height: 15px;
+	border-radius: 10px;
+	margin: 0 1px 0 1px;
+}
+span{
+	width: 100%;
+	text-align: center;
+	background: whitesmoke;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px;
+	cursor: pointer;
+	transition: .2s;
+	display: none;
+}
+span:hover{
+
+	background: red;
+	color: whitesmoke;
+
+}
